@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/arrayDemo/arrayDemo.iml" filepath="$PROJECT_DIR$/arrayDemo/arrayDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayListDemo/arrayListDemo.iml" filepath="$PROJECT_DIR$/arrayListDemo/arrayListDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" filepath="$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/methodDemo/methodDemo.iml" filepath="$PROJECT_DIR$/methodDemo/methodDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objectDemo/objectDemo.iml" filepath="$PROJECT_DIR$/objectDemo/objectDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scannerDemo/scannerDemo.iml" filepath="$PROJECT_DIR$/scannerDemo/scannerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringDemo/stringDemo.iml" filepath="$PROJECT_DIR$/stringDemo/stringDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>
