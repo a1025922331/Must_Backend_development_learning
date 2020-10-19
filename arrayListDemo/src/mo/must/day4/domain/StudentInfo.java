@@ -7,8 +7,6 @@ public class StudentInfo {
     private String name;
     private int age;
     private String birthday;
-    private String master;
-    private String dev01;
 
     //构造方法
 
