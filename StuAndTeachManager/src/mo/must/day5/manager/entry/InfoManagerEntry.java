@@ -8,8 +8,8 @@ public class InfoManagerEntry {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("--------欢迎来到师生信息管理系统--------");
-            System.out.println("请输入您的选择: 1.学生管理  2.老师管理  3.退出");
+            System.out.println("--------welcome to the information management system--------");
+            System.out.println("please enter your choice: 1.student  2.teacher  3.exit");
             int choice = sc.nextInt();
             switch (choice) {
                 case 1:
@@ -20,7 +20,7 @@ public class InfoManagerEntry {
                     //教师管理系统
                     break;
                 case 3:
-                    System.out.println("-------- 已安全退出当前正在运行的JVM虚拟机 --------");
+                    System.out.println("-------- the JVM has exited --------");
                     exit(0);
             }
 

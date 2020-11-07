@@ -15,21 +15,21 @@ public class StudentController {
     //打开学生管理系统
     public void start() {
         while (true) {
-            System.out.println("--------欢迎来到 <学生> 管理系统--------");
-            System.out.println("请输入您的选择: 1.添加学生  2.删除学生  3.修改学生  4.查看学生  5.退出");
+            System.out.println("--------welcome to student management system--------");
+            System.out.println("please enter your choice: 1.add stu  2.delete stu  3.revise stu 4.check stu  5.exit");
             int choice = sc.nextInt();
             switch (choice) {
                 case 1:
                     addStudent();
                     break;
                 case 2:
-                    System.out.println("删除学生");
+                    System.out.println("");
                     break;
                 case 3:
-                    System.out.println("修改学生");
+                    System.out.println("1");
                     break;
                 case 4:
-                    System.out.println("查看学生");
+                    System.out.println("2");
                     break;
                 case 5:
                     return;
