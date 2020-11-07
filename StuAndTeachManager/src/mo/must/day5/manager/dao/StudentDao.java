@@ -26,4 +26,34 @@ public class StudentDao {
             return false;
         }
     }
+
+    //查看所有学生
+    public Student[] findAllStudent() {
+        return stus;
+    }
+
+    //删除学生信息
+    public void deleteStudentById(String stuId) {
+        int index = getIndex(stuId);
+        stus[index] = null;
+    }
+
+    //按stuId查找并返回索引
+    public int getIndex(String stuId) {
+        int index = -1;
+        for (int i = 0; i < stus.length; i++) {
+            Student stu = stus[i];
+            if (stus[i] != null && stus[i].getStuId().equals(stuId)) {
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+
+    //修改学生信息
+    public void updateStudent(String stuId, Student newStu) {
+        int index = getIndex(stuId);
+        stus[index] = newStu;
+    }
 }

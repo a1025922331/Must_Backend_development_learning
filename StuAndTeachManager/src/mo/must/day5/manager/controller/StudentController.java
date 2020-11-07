@@ -23,13 +23,13 @@ public class StudentController {
                     addStudent();
                     break;
                 case 2:
-                    System.out.println("");
+                    deleteStudentById();
                     break;
                 case 3:
-                    System.out.println("1");
+                    updateStudent();
                     break;
                 case 4:
-                    System.out.println("2");
+                    findAllStudent();
                     break;
                 case 5:
                     return;
@@ -38,32 +38,74 @@ public class StudentController {
         }
     }
 
-    //添加学生
+    //添加学生信息
     public void addStudent() {
         String stuId;
         System.out.println("1.Please enter the student's ID: ");
-        while(true){
-            sc.nextLine();//空读
+        sc.nextLine();//空读
+        while (true) {
             stuId = sc.nextLine();
-            if(studentServie.isExits(stuId))
+            if (studentServie.isExits(stuId))
                 System.out.println("Hint: The Id you entered is occupied! Please other ID: ");
             else
                 break;
         }
         Student stu = inputStudentInfo(stuId);
         boolean b = studentServie.addStudent(stu);
-        if(b)
+        if (b)
             System.out.println("Add successfully!");
         else
             System.out.println("Fail to add,Array is full.");
     }
 
-    //键盘录入学号并判断学号是否存在
+    //删除学生信息
+    public void deleteStudentById() {
+        String stuId = inputStudentId();
+        studentServie.deleteStudentById(stuId);
+    }
+
+    //修改学生信息
+    public void updateStudent() {
+        String stuId = inputStudentId();
+        Student newStu = inputStudentInfo(stuId);
+        studentServie.updateStudent(stuId,newStu);
+    }
+
+    //查看所有学生
+    public void findAllStudent() {
+        Student[] stus = studentServie.findAllStudent();
+        boolean isEmpty = true;
+        System.out.println("stuID\t\tname\t\tage\tbirthday");
+        for (int i = 0; i < stus.length; i++) {
+            Student stu = stus[i];
+            if (stu != null) {
+                isEmpty = false;
+                System.out.printf("%s\t%s\t%d\t%s\n", stu.getStuId(),
+                        stu.getName(), stu.getAge(), stu.getBirthday());
+            }
+        }
+
+        if (isEmpty)
+            System.out.println("None student information!");
+
+
+    }
+
+    //键盘录入学号（含判断id是否存在）
     private String inputStudentId() {
+        String stuId;
         System.out.println("1.Please enter the student's ID: ");
-        String stuId = sc.nextLine();
-        //循环并判断学号是否存在
-        //........
+        sc.nextLine(); //空读一行
+
+        //若不存在则重新输入
+        while (true) {
+            stuId = sc.nextLine();
+            if (studentServie.isExits(stuId))
+                break;
+            else {
+                System.out.println("Hint: The stuID entered does not exits! Please enter again: ");
+            }
+        }
         return stuId;
     }
 

@@ -1,6 +1,7 @@
 package mo.must.day5.manager.entry;
 
 import mo.must.day5.manager.controller.StudentController;
+import mo.must.day5.manager.controller.TeacherController;
 import java.util.Scanner;
 import static java.lang.System.exit;
 
@@ -13,15 +14,18 @@ public class InfoManagerEntry {
             int choice = sc.nextInt();
             switch (choice) {
                 case 1:
-                    StudentController stuContro = new StudentController();
-                    stuContro.start();
+                    StudentController studentController = new StudentController();
+                    studentController.start();
                     break;
                 case 2:
-                    //教师管理系统
+                    TeacherController teacherController = new TeacherController();
+                    teacherController.start();
                     break;
                 case 3:
                     System.out.println("-------- the JVM has exited --------");
                     exit(0);
+                default:
+                    System.out.println("Your input is wrong, please try again!");
             }
 
         }
