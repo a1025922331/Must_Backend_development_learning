@@ -27,8 +27,6 @@ public class InfoManagerEntry {
                 default:
                     System.out.println("Your input is wrong, please try again!");
             }
-
         }
     }
-
 }

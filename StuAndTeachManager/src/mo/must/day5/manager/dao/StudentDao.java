@@ -43,7 +43,7 @@ public class StudentDao {
         int index = -1;
         for (int i = 0; i < stus.length; i++) {
             Student stu = stus[i];
-            if (stus[i] != null && stus[i].getStuId().equals(stuId)) {
+            if (stus[i] != null && stus[i].getId().equals(stuId)) {
                 index = i;
                 break;
             }

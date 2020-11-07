@@ -13,7 +13,7 @@ public class StudentService {
         for (int i = 0; i < stus.length; i++) {
             Student stu = stus[i];
             //避免空指针异常，要加个判断是否为null的条件
-            if(stu!=null&&stu.getStuId().equals(stuId)) {
+            if(stu!=null&&stu.getId().equals(stuId)) {
                 isExist = true;
                 break;
             }

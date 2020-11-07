@@ -80,7 +80,7 @@ public class StudentController {
             Student stu = stus[i];
             if (stu != null) {
                 isEmpty = false;
-                System.out.printf("%s\t%s\t%d\t%s\n", stu.getStuId(),
+                System.out.printf("%s\t%s\t%d\t%s\n", stu.getId(),
                         stu.getName(), stu.getAge(), stu.getBirthday());
             }
         }

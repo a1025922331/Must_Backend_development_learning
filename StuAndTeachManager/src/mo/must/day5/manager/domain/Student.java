@@ -2,7 +2,7 @@ package mo.must.day5.manager.domain;
 
 public class Student {
     //成员变量
-    private String stuId;
+    private String id;
     private String name;
     private int age;
     private String birthday;
@@ -12,18 +12,18 @@ public class Student {
     }
 
     public Student(String stuId, String name, int age, String birthday) {
-        stuId = stuId;
+        this.id = stuId;
         this.name = name;
         this.age = age;
         this.birthday = birthday;
     }
 
-    public String getStuId() {
-        return stuId;
+    public String getId() {
+        return id;
     }
 
-    public void setStuId(String stuId) {
-        this.stuId = stuId;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getName() {
