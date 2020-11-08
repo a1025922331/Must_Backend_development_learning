@@ -5,7 +5,7 @@ import mo.must.day5.manager.service.StudentService;
 
 import java.util.Scanner;
 
-public class BaseStudentController {
+public abstract class BaseStudentController {
 
     Scanner sc = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class BaseStudentController {
     StudentService studentServie = new StudentService();
 
     //打开学生管理系统
-    public void start() {
+    public final void start() {
         while (true) {
             System.out.println("--------welcome to student management system--------");
             System.out.println("please enter your choice: 1.add stu  2.delete stu  3.revise stu 4.check stu  5.exit");
@@ -39,7 +39,7 @@ public class BaseStudentController {
     }
 
     //添加学生信息
-    public void addStudent() {
+    public final void addStudent() {
         String stuId;
         System.out.println("1.Please enter the student's ID: ");
         sc.nextLine();//空读
@@ -59,20 +59,20 @@ public class BaseStudentController {
     }
 
     //删除学生信息
-    public void deleteStudentById() {
+    public final void deleteStudentById() {
         String stuId = inputStudentId();
         studentServie.deleteStudentById(stuId);
     }
 
     //修改学生信息
-    public void updateStudent() {
+    public final void updateStudent() {
         String stuId = inputStudentId();
         Student newStu = inputStudentInfo(stuId);
         studentServie.updateStudent(stuId,newStu);
     }
 
     //查看所有学生
-    public void findAllStudent() {
+    public final void findAllStudent() {
         Student[] stus = studentServie.findAllStudent();
         boolean isEmpty = true;
         System.out.println("stuID\t\tname\t\tage\tbirthday");
@@ -110,7 +110,5 @@ public class BaseStudentController {
     }
 
     //键盘录入学生的其它信息
-    public Student inputStudentInfo(String stuId) {
-        return null;
-    }
+    public abstract Student inputStudentInfo(String stuId);
 }

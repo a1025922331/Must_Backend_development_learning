@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/abstractDemo/abstractDemo.iml" filepath="$PROJECT_DIR$/abstractDemo/abstractDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayDemo/arrayDemo.iml" filepath="$PROJECT_DIR$/arrayDemo/arrayDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayListDemo/arrayListDemo.iml" filepath="$PROJECT_DIR$/arrayListDemo/arrayListDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeBlockDemo/codeBlockDemo.iml" filepath="$PROJECT_DIR$/codeBlockDemo/codeBlockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" filepath="$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/methodDemo/methodDemo.iml" filepath="$PROJECT_DIR$/methodDemo/methodDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/objectDemo/objectDemo.iml" filepath="$PROJECT_DIR$/objectDemo/objectDemo.iml" />
