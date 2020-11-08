@@ -5,7 +5,7 @@ import mo.must.day5.manager.service.StudentService;
 
 import java.util.Scanner;
 
-public class StudentController extends BaseStudentController{
+public class OtherStudentController extends BaseStudentController{
 
     Scanner sc = new Scanner(System.in);
 
@@ -19,11 +19,7 @@ public class StudentController extends BaseStudentController{
         System.out.println("2.Please enter the student's birthday: ");
         sc.nextLine();//空读
         String birthday = sc.nextLine();
-        Student stu = new Student();
-        stu.setId(stuId);
-        stu.setName(name);
-        stu.setAge(age);
-        stu.setBirthday(birthday);
+        Student stu = new Student(stuId, name, age, birthday);
         return stu;
     }
 }
