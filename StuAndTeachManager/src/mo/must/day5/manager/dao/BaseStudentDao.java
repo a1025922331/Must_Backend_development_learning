@@ -3,17 +3,7 @@ package mo.must.day5.manager.dao;
 import mo.must.day5.manager.domain.Student;
 
 //data access object 数据访问对象
-public abstract class BaseStudentDao {
-    private static Student[] stus = new Student[5];
-
-    //静态代码块
-    static{
-        Student stu1 = new Student("2016180099","guozexin",22,"19980101");
-        Student stu2 = new Student("2016180098","libinqian",22,"19980102");
-        stus[0] = stu1;
-        stus[1] = stu2;
-    }
-
+public interface BaseStudentDao {
     //添加学生信息
     public abstract boolean addStudent(Student stu);
 

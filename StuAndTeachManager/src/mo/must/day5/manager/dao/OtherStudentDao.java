@@ -5,7 +5,7 @@ import mo.must.day5.manager.domain.Student;
 import java.util.ArrayList;
 
 //data access object 数据访问对象
-public class OtherStudentDao extends BaseStudentDao{
+public class OtherStudentDao implements BaseStudentDao{
     private static ArrayList<Student> stus = new ArrayList<>();
 
     //静态代码块

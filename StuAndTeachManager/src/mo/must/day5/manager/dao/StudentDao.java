@@ -3,7 +3,7 @@ package mo.must.day5.manager.dao;
 import mo.must.day5.manager.domain.Student;
 
 //data access object 数据访问对象
-public class StudentDao extends BaseStudentDao{
+public class StudentDao implements BaseStudentDao{
     private static Student[] stus = new Student[5];
 
     //静态代码块
