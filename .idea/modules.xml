@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" filepath="$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" filepath="$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" filepath="$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdaExpressionDemo/lambdaExpressionDemo.iml" filepath="$PROJECT_DIR$/lambdaExpressionDemo/lambdaExpressionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/methodDemo/methodDemo.iml" filepath="$PROJECT_DIR$/methodDemo/methodDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/objectDemo/objectDemo.iml" filepath="$PROJECT_DIR$/objectDemo/objectDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/polymorphicDemo/polymorphicDemo.iml" filepath="$PROJECT_DIR$/polymorphicDemo/polymorphicDemo.iml" />
