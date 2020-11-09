@@ -1,10 +1,13 @@
 package mo.must.day5.manager.service;
 
+import mo.must.day5.manager.dao.BaseStudentDao;
 import mo.must.day5.manager.dao.OtherStudentDao;
 import mo.must.day5.manager.domain.Student;
+import mo.must.day5.manager.factory.StudentDaoFactory;
 
 public class StudentService {
-    OtherStudentDao studentDao = new OtherStudentDao();
+//    OtherStudentDao studentDao = new OtherStudentDao();
+    BaseStudentDao studentDao = StudentDaoFactory.getStudentDao();
 
     //判断学号是否存在
     public boolean isExits(String stuId) {
