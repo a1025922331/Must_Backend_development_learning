@@ -1,5 +1,7 @@
 package mo.must.day7.sortMethods;
 
+import java.util.Arrays;
+
 public class BubbleSort {
     public static void main(String[] args) {
         int[] a = {7,1,2,3,4,5,6};
@@ -8,21 +10,21 @@ public class BubbleSort {
         long start = System.currentTimeMillis();
 
         //not use flag variable
-        a = method(a);
+        bubbleSortNotUueFlag(a);
         long point1 = System.currentTimeMillis();
 
         //use flag variable
-        b = methodUseFlag(b);
+        bubbleSort(b);
         long point2 = System.currentTimeMillis();
 
-        printArray(a);
+        System.out.println(Arrays.toString(a));
         System.out.println(point1 - start);
-        printArray(b);
+        System.out.println(Arrays.toString(b));
         System.out.println(point2 - point1);
 
     }
 
-    public static int[] method(int[] array) {
+    public static void bubbleSortNotUueFlag(int[] array) {
         //from small to big
         int temp;
 
@@ -34,12 +36,11 @@ public class BubbleSort {
                     array[j + 1] = temp;
                 }
             }
-            printArray(array);
         }
-        return array;
     }
 
-    public static int[] methodUseFlag(int[] array) {
+    //用了flag优化
+    public static void bubbleSort(int[] array) {
         //from small to big
         int temp;
         //Is there an exchange going on？
@@ -55,18 +56,10 @@ public class BubbleSort {
                     flag = true;
                 }
             }
-            printArray(array);
             if(flag==false){
-                return array;
+                return;
             }
         }
-        return array;
-    }
-
-    private static void printArray(int[] a) {
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
-        System.out.println();
+        return;
     }
 }

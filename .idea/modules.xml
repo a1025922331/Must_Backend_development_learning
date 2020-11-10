@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" filepath="$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstractDemo/abstractDemo.iml" filepath="$PROJECT_DIR$/abstractDemo/abstractDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayCopyDemo/arrayCopyDemo.iml" filepath="$PROJECT_DIR$/arrayCopyDemo/arrayCopyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayDemo/arrayDemo.iml" filepath="$PROJECT_DIR$/arrayDemo/arrayDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayListDemo/arrayListDemo.iml" filepath="$PROJECT_DIR$/arrayListDemo/arrayListDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/bigDecimalDemo/bigDecimalDemo.iml" filepath="$PROJECT_DIR$/bigDecimalDemo/bigDecimalDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bootstrapDemo/bootstrapDemo.iml" filepath="$PROJECT_DIR$/bootstrapDemo/bootstrapDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeBlockDemo/codeBlockDemo.iml" filepath="$PROJECT_DIR$/codeBlockDemo/codeBlockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" filepath="$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" filepath="$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" />
