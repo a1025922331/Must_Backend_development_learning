@@ -2,8 +2,11 @@ package mo.must.day7.test1;
 
 //匿名内部类测试
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class InnerClassTest1 {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         getTeacher(new SchoolInterface() {
             @Override
             public String addTeacher() {

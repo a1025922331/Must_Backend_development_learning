@@ -8,7 +8,7 @@ import java.util.Random;
 public class Test1 {
     public static void main(String[] args) {
         useCalculator((int a, int b) -> {
-            String s = String.valueOf(a) + " + " + String.valueOf(b) + " = " + String.valueOf(a + b);
+            String s = a + " + " + b + " = " + (a + b);
             return s;
         });
     }

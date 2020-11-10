@@ -1,5 +1,7 @@
 package mo.must.day5.manager.domain;
 
+import java.util.Objects;
+
 public class Father {
     private String s;
 

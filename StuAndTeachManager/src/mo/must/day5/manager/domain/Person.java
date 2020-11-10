@@ -1,5 +1,7 @@
 package mo.must.day5.manager.domain;
 
+import java.util.Objects;
+
 public class Person {
     //成员变量
 
@@ -53,4 +55,16 @@ public class Person {
     public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return age == person.age &&
+                Objects.equals(id, person.id) &&
+                Objects.equals(name, person.name) &&
+                Objects.equals(birthday, person.birthday);
+    }
+
 }
