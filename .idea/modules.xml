@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/bigDecimalDemo/bigDecimalDemo.iml" filepath="$PROJECT_DIR$/bigDecimalDemo/bigDecimalDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/bootstrapDemo/bootstrapDemo.iml" filepath="$PROJECT_DIR$/bootstrapDemo/bootstrapDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeBlockDemo/codeBlockDemo.iml" filepath="$PROJECT_DIR$/codeBlockDemo/codeBlockDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dateDemo/dateDemo.iml" filepath="$PROJECT_DIR$/dateDemo/dateDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" filepath="$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/informationGain/informationGain.iml" filepath="$PROJECT_DIR$/informationGain/informationGain.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" filepath="$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" filepath="$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" />
