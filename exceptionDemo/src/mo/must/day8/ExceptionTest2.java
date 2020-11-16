@@ -25,6 +25,7 @@ public class ExceptionTest2 {
                 a.printStackTrace();
             }
 
+//
         }
         System.out.println(stu);
     }
