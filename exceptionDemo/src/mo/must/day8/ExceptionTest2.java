@@ -24,11 +24,7 @@ public class ExceptionTest2 {
             } catch(AgeOverTheRangeException a) {
                 a.printStackTrace();
             }
-
-
         }
         System.out.println(stu);
     }
-
-
 }
