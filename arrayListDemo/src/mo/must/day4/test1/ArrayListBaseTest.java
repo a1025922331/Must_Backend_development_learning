@@ -1,7 +1,6 @@
 package mo.must.day4.test1;
 
 import mo.must.day4.domain.StudentGrade;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,14 +13,13 @@ public class ArrayListBaseTest {
         System.out.println("成绩合格的同学如下：");
         System.out.println(sgPass);
         printArrayList(sgPass);
-
     }
 
     //键入学生信息创建StudentGrade对象并加入返回成绩集合的方法
     private static ArrayList<StudentGrade> getGradesOfStudentArrayList() {
         //初始化
         Scanner sc = new Scanner(System.in);
-        String s = "";
+        String s;
         ArrayList<StudentGrade> sgTotal = new ArrayList<>();
         //循环输入，并创建对象，并加入集合
         while (true) {
@@ -31,7 +29,7 @@ public class ArrayListBaseTest {
                 break;
             String[] sSplit = s.split(" "); //切割
             //创建StudentGrade对象并加入集合
-            sgTotal.add(new StudentGrade(sSplit[0], Integer.valueOf(sSplit[1])));
+            sgTotal.add(new StudentGrade(sSplit[0], Integer.parseInt(sSplit[1])));
         }
         return sgTotal;
     }
@@ -39,9 +37,9 @@ public class ArrayListBaseTest {
     //筛选成绩及格的学生
     private static ArrayList<StudentGrade> selectStudentsWithPassGrade(ArrayList<StudentGrade> sgTotal) {
         ArrayList<StudentGrade> sgPass = new ArrayList<>();
-        StudentGrade sgTemp = new StudentGrade();
-        for (int i = 0; i < sgTotal.size(); i++) {
-            sgTemp = sgTotal.get(i);
+        StudentGrade sgTemp;
+        for (StudentGrade studentGrade : sgTotal) {
+            sgTemp = studentGrade;
             if (sgTemp.getScore() >= 60) {
                 sgPass.add(sgTemp);
             }
@@ -51,8 +49,8 @@ public class ArrayListBaseTest {
 
     //打印集合中学生成绩信息的方法
     public static void printArrayList(ArrayList<StudentGrade> sgList) {
-        for (int i = 0; i < sgList.size(); i++) {
-            System.out.println(sgList.get(i));
+        for (StudentGrade studentGrade : sgList) {
+            System.out.println(studentGrade);
         }
     }
 }

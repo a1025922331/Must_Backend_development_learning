@@ -1,8 +1,6 @@
 package mo.must.day4.test1;
 
 import mo.must.day4.domain.StudentInfo;
-
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -105,8 +103,7 @@ public class StudentManagement {
         System.out.println("学号\t\t\t姓名\t\t\t年龄\t\t生日");
 
         //遍历集合容器，打印学生信息
-        for (int i = 0; i < studentList.size(); i++) {
-            StudentInfo student = studentList.get(i);
+        for (StudentInfo student : studentList) {
             System.out.println(student.getSid() + "\t" + student.getName()
                     + "\t" + student.getAge() + "\t\t" + student.getBirthday());
         }

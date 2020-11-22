@@ -10,7 +10,6 @@ public class ExceptionTest2 {
         String name = sc.nextLine();
         stu.setName(name);
 
-
         while (true) {
             System.out.println("Please enter student's age:");
             String ageStr = sc.nextLine();
