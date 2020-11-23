@@ -16,3 +16,4 @@ public class ArrayListTest1 {
         System.out.println(Arrays.toString(array));
     }
 }
+

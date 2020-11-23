@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" filepath="$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreeSetDemo/TreeSetDemo.iml" filepath="$PROJECT_DIR$/TreeSetDemo/TreeSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstractDemo/abstractDemo.iml" filepath="$PROJECT_DIR$/abstractDemo/abstractDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayCopyDemo/arrayCopyDemo.iml" filepath="$PROJECT_DIR$/arrayCopyDemo/arrayCopyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrayDemo/arrayDemo.iml" filepath="$PROJECT_DIR$/arrayDemo/arrayDemo.iml" />
@@ -13,11 +14,13 @@
       <module fileurl="file://$PROJECT_DIR$/collectionDemo/collectionDemo.iml" filepath="$PROJECT_DIR$/collectionDemo/collectionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dateDemo/dateDemo.iml" filepath="$PROJECT_DIR$/dateDemo/dateDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" filepath="$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genericityDemo/genericityDemo.iml" filepath="$PROJECT_DIR$/genericityDemo/genericityDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/informationGain/informationGain.iml" filepath="$PROJECT_DIR$/informationGain/informationGain.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" filepath="$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" filepath="$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" filepath="$PROJECT_DIR$/javabeanDemo/javabeanDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambdaExpressionDemo/lambdaExpressionDemo.iml" filepath="$PROJECT_DIR$/lambdaExpressionDemo/lambdaExpressionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linkedListDemo/linkedListDemo.iml" filepath="$PROJECT_DIR$/linkedListDemo/linkedListDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/listDemo/listDemo.iml" filepath="$PROJECT_DIR$/listDemo/listDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/methodDemo/methodDemo.iml" filepath="$PROJECT_DIR$/methodDemo/methodDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/objectClassDemo/objectClassDemo.iml" filepath="$PROJECT_DIR$/objectClassDemo/objectClassDemo.iml" />
