@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/dateDemo/dateDemo.iml" filepath="$PROJECT_DIR$/dateDemo/dateDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" filepath="$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericityDemo/genericityDemo.iml" filepath="$PROJECT_DIR$/genericityDemo/genericityDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashSetDemo/hashSetDemo.iml" filepath="$PROJECT_DIR$/hashSetDemo/hashSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/informationGain/informationGain.iml" filepath="$PROJECT_DIR$/informationGain/informationGain.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" filepath="$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" filepath="$PROJECT_DIR$/interfaceDemo/interfaceDemo.iml" />
