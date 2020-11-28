@@ -13,6 +13,7 @@ public class CollectionIterator {
         arrayList.add("dddd");
         arrayList.add("eeeee");
 
+
         //迭代器实现循环
         Iterator<String> it = arrayList.iterator();//初始化指向第一个元素前的空位置
         while (it.hasNext()) {
