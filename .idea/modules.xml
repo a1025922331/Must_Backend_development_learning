@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MapDemo/MapDemo.iml" filepath="$PROJECT_DIR$/MapDemo/MapDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" filepath="$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/TreeSetDemo/TreeSetDemo.iml" filepath="$PROJECT_DIR$/TreeSetDemo/TreeSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstractDemo/abstractDemo.iml" filepath="$PROJECT_DIR$/abstractDemo/abstractDemo.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/dateDemo/dateDemo.iml" filepath="$PROJECT_DIR$/dateDemo/dateDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" filepath="$PROJECT_DIR$/exceptionDemo/exceptionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/genericityDemo/genericityDemo.iml" filepath="$PROJECT_DIR$/genericityDemo/genericityDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashMapDeMO/hashMapDemo.iml" filepath="$PROJECT_DIR$/hashMapDeMO/hashMapDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/hashSetDemo/hashSetDemo.iml" filepath="$PROJECT_DIR$/hashSetDemo/hashSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/informationGain/informationGain.iml" filepath="$PROJECT_DIR$/informationGain/informationGain.iml" />
       <module fileurl="file://$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" filepath="$PROJECT_DIR$/innerClassDemo/innerClassDemo.iml" />
@@ -33,6 +35,8 @@
       <module fileurl="file://$PROJECT_DIR$/stringDemo/stringDemo.iml" filepath="$PROJECT_DIR$/stringDemo/stringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringSplitDemo/stringSplitDemo.iml" filepath="$PROJECT_DIR$/stringSplitDemo/stringSplitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/treeMapDemo/treeMapDemo.iml" filepath="$PROJECT_DIR$/treeMapDemo/treeMapDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variableParameter/variableParameter.iml" filepath="$PROJECT_DIR$/variableParameter/variableParameter.iml" />
     </modules>
   </component>
 </project>
