@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/scannerDemo/scannerDemo.iml" filepath="$PROJECT_DIR$/scannerDemo/scannerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchDemo/searchDemo.iml" filepath="$PROJECT_DIR$/searchDemo/searchDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortDemo/sortDemo.iml" filepath="$PROJECT_DIR$/sortDemo/sortDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/streamDemo/streamDemo.iml" filepath="$PROJECT_DIR$/streamDemo/streamDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringDemo/stringDemo.iml" filepath="$PROJECT_DIR$/stringDemo/stringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringSplitDemo/stringSplitDemo.iml" filepath="$PROJECT_DIR$/stringSplitDemo/stringSplitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
