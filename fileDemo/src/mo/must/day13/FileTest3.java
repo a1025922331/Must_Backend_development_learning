@@ -7,9 +7,9 @@ public class FileTest3 {
     public static void main(String[] args) {
         File file = new File("C:\\Users\\a1025\\Desktop\\1231");
         if (file.isDirectory()) {
-            deleteAll(file);
+//            deleteAll(file);
         } else {
-            file.delete();
+//            file.delete();
         }
     }
 
