@@ -30,7 +30,7 @@ public class CopyBuffered {
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(to));
 
         long startTime = System.currentTimeMillis();
-        byte[] temps = new byte[10];
+        byte[] temps = new byte[4];
         int len;
         while((len = bis.read(temps))!=-1){
             bos.write(temps,0,len);
