@@ -20,6 +20,5 @@ public class numberSort {
         }
         br.close();
         fw.close();
-
     }
 }
