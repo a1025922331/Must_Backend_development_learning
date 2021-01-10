@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/InOutputStreamReaderWriterDemo/InOutputStreamReaderWriterDemo.iml" filepath="$PROJECT_DIR$/InOutputStreamReaderWriterDemo/InOutputStreamReaderWriterDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MapDemo/MapDemo.iml" filepath="$PROJECT_DIR$/MapDemo/MapDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectInputOutputStream/ObjectInputOutputStream.iml" filepath="$PROJECT_DIR$/ObjectInputOutputStream/ObjectInputOutputStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" filepath="$PROJECT_DIR$/StuAndTeachManager/StuAndTeachManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/TreeSetDemo/TreeSetDemo.iml" filepath="$PROJECT_DIR$/TreeSetDemo/TreeSetDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstractDemo/abstractDemo.iml" filepath="$PROJECT_DIR$/abstractDemo/abstractDemo.iml" />
@@ -33,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/objectClassDemo/objectClassDemo.iml" filepath="$PROJECT_DIR$/objectClassDemo/objectClassDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/objectDemo/objectDemo.iml" filepath="$PROJECT_DIR$/objectDemo/objectDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/polymorphicDemo/polymorphicDemo.iml" filepath="$PROJECT_DIR$/polymorphicDemo/polymorphicDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/propertiesDemo/propertiesDemo.iml" filepath="$PROJECT_DIR$/propertiesDemo/propertiesDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/scannerDemo/scannerDemo.iml" filepath="$PROJECT_DIR$/scannerDemo/scannerDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchDemo/searchDemo.iml" filepath="$PROJECT_DIR$/searchDemo/searchDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sortDemo/sortDemo.iml" filepath="$PROJECT_DIR$/sortDemo/sortDemo.iml" />

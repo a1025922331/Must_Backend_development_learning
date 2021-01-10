@@ -18,3 +18,4 @@ public class CharsetTest {
         isr.close();
     }
 }
+
