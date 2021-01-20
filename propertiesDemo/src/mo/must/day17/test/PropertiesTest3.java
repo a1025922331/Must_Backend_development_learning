@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.Set;
 
-//与ID流交结合的方法
+//与ID流相结合的方法
 public class PropertiesTest3 {
 
     public static void main(String[] args) throws IOException {

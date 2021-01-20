@@ -49,6 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/threadDemo/threadDemo.iml" filepath="$PROJECT_DIR$/threadDemo/threadDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/treeMapDemo/treeMapDemo.iml" filepath="$PROJECT_DIR$/treeMapDemo/treeMapDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/variableParameter/variableParameter.iml" filepath="$PROJECT_DIR$/variableParameter/variableParameter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volatileDemo/volatileDemo.iml" filepath="$PROJECT_DIR$/volatileDemo/volatileDemo.iml" />
     </modules>
   </component>
 </project>

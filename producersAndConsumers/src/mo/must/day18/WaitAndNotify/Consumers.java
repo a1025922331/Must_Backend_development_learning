@@ -35,7 +35,7 @@ public class Consumers extends Thread {
                         lock.notifyAll();//当拥有该锁对象的monitor后才可以使用notify语句,执行往后并不会马上释放锁，
                                          //只是唤醒之前调用过该锁对象的wait方法的线程可以开始竞争该锁对象了，等到同步代码块执行结束才释放锁
                     } else {
-                        //桌上没吃的
+                        //桌上没吃的poo
                         try {
                             lock.wait(); //当拥有该锁对象的monitor后才可以使用wait语句，执行往后会自动释放锁
                         } catch (InterruptedException e) {
